@@ -21,7 +21,7 @@ const useFetch = (url) =>{
 
             setisPending(false) // when the data comes it sets the laoding to fals
     })
-},[url]);
+},[]);
 
 return {data, isPending}
 
