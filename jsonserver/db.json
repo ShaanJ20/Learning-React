@@ -1,0 +1,17 @@
+{
+    "blogs":[ 
+        {
+        "title" : "My first blog",
+        "body": "here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some for ",
+        "author" : "CJ",
+        "id": 1
+        },
+
+        {
+        "title" : "My first blog2",
+        "body": "here are many variations of passages of Loasdadadsrem Ipsum available, but the majority have suffered alteration in some for ",
+        "author" : "CJ",
+        "id": 2
+        }
+    ]
+}
