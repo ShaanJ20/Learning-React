@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Cr from './components/conditional_rendering/Cr';
+import Home from './components/List_outputting/Home';
+import List_output from './components/List_outputting/Listoutput';
+import Parent from './components/methods_as_props/Parent';
+import Useeffect from './components/useeffect/Useeffect';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <>
+      {/* <Parent/> */}
+      {/* <Cr/> */}
+      {/* <Home/> */}
+      <Useeffect/>
+    </>
   );
 }
 
