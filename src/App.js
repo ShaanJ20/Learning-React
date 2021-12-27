@@ -1,5 +1,6 @@
 import './App.css';
 import Cr from './components/conditional_rendering/Cr';
+import UsingustomHooks from './components/Custom-hook/UsingustomHooks';
 import Home from './components/List_outputting/Home';
 import List_output from './components/List_outputting/Listoutput';
 import Parent from './components/methods_as_props/Parent';
@@ -15,7 +16,9 @@ function App() {
       {/* <Cr/> */}
       {/* <Home/> */}
       {/* <Useeffect/> */}
-      <Jsonserver/>
+      {/* <Jsonserver/> */}
+
+      <UsingustomHooks/>
       
     </>
   );
