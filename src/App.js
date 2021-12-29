@@ -22,14 +22,15 @@ function App() {
       {/* <Parent/> */}
       {/* <Cr/> */}
 
-      <Home/>
+      {/* <Home/> */}
       {/* <Useeffect/> */}
 
       {/* <Jsonserver/> */}
 
-      {/* <UsingustomHooks/> */}
+      
 
       <Routes>
+        <Route exact path='/' element = {<UsingustomHooks/>}></Route>
         <Route exact path='/blogs/:id' element = {<BlogDetails/>}></Route>
       </Routes>
     </Router>
